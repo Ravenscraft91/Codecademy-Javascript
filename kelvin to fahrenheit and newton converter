@@ -1,0 +1,13 @@
+//today's forcast in kelvin
+const kelvin = 293;
+//kelvin - celcius converter
+let celsius = kelvin - 273;
+//celsius to fahrenheit converter
+let fahrenheit = celsius * (9/5) + 32;
+//whole number converter
+fahrenheit = Math.floor(fahrenheit);
+//celsius to newton converter
+let newton = celsius * (33/100);
+newton = Math.floor(newton);
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+console.log(`The temperature is ${newton} degrees Newton`)
